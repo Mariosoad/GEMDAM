@@ -1,0 +1,312 @@
+*{
+    font-family : 'MadeEvolve';
+}
+
+a{
+    text-decoration: none !important;
+}
+
+@font-face {
+    font-family: 'MadeEvolve';
+    src: url(../media/font/MadeEvolve.otf);
+}
+
+.contIndexWeb{
+    width: 80%;
+}
+
+.contGallery{
+    width: 65%;
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/*HERO*/
+/*HERO*/
+.contSectionImagen1{
+    background-image: url('../media/image/dragon4.png') !important;
+    background-size: 62%;
+    background-position: center 20px;
+    background-repeat: no-repeat;
+}
+
+.colHeroIzq{
+    height: 92vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.colHeroDer{
+    height: 92vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contColHero{
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contColModelHero{
+    text-align: center;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.tittleHero{
+    font-size: 6em !important;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.subtittleHero{
+    font-size: 1.6em !important;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.tittleContSep{
+    text-shadow: 2px 2px rgba(51, 51, 51, 0.212);
+}
+
+/*SEPARATE*/
+/*SEPARATE*/
+.contSeparate{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.colSep{
+    width: 40%;
+    background: #2cddcf;
+    height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*SECTION 1*/
+/*SECTION 1*/
+.contSection{
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colSectionIzq{
+    height: 42vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contSectionImg1{
+    background-image: url('../media/image/archviz/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.colSectionDer{
+    background-color: rgb(220, 220, 220);
+    height: 62vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*SECTION 2*/
+/*SECTION 2*/
+.contSectionDer2{
+    width: 55%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.colSection2Izq{
+    background-color: rgb(201, 201, 201);
+    height: 122vh;
+    margin-top: -20vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contSectionImg2{
+    background-image: url('../media/image/archviz/img2.jpg');
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.colSection2Der{
+    height: 102vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*SECTION 3*/
+/*SECTION 3*/
+.contSection3Color{
+    background: #2cddcf;
+}
+
+.contSection3{
+    height: 92vh;
+    justify-content: center;
+    display: flex;
+}
+
+.contSectionTittle{
+    width: 80%;
+    margin: auto;
+    height: 25vh;
+    margin-bottom: -10vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.colSection3Izq{
+    margin: 20px;
+    height: 52vh;
+
+    border-radius: 5px;
+
+    background-image: url('../media/image/archviz/img3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.colSection3Mid{
+    margin: 20px;
+    margin-top: 10vh;
+    height: 52vh;
+
+    border-radius: 5px;
+
+    background-image: url('../media/image/archviz/img4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.colSection3Der{
+    margin: 20px;
+    height: 52vh;
+    margin-top: 20vh;
+    border-radius: 5px;
+
+    background-image: url('../media/image/archviz/img5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/*SECTION 4*/
+/*SECTION 4*/
+.contSectionDer4{
+    width: 55%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.colSection4Izq{
+    height: 92vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.colSection4Der{
+    height: 92vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contSectionImg6{
+    background-image: url('../media/image/archviz/img4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.conImgRender{
+    margin: auto;
+    text-align: center;
+}
+
+.colSection5Color{
+    background: #2cddcf;
+}
+
+.imgRender{
+    width: 70%;
+    height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.colSection5Der{
+    height: 125vh !important;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

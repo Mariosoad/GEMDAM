@@ -1,0 +1,28 @@
+
+/*NAVBAR*/
+/*NAVBAR*/
+.colorNavbar{
+    background-color: rgb(44, 221, 207)!important;
+    color: black !important;
+    font-weight: 500;
+
+    display: flex;
+    height: 80px;
+}
+
+.contNav{
+    width: 90% !important;
+    margin: auto !important;
+}
+
+.navBarcito{
+    float: none !important;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.LinkBar{
+    float: none !important;
+    width: 10%;
+    justify-content: center;
+}

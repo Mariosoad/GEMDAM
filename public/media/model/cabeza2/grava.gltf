@@ -1,0 +1,165 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v3.1.128981410)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 6940,
+            "type": "VEC3",
+            "max": [
+                40.0,
+                40.0,
+                2.250000476837158
+            ],
+            "min": [
+                -40.0,
+                -40.0,
+                -1.249999761581421
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 6940,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 6940,
+            "type": "VEC2",
+            "max": [
+                0.9930382370948792,
+                0.768497884273529
+            ],
+            "min": [
+                0.004600584506988525,
+                0.19648092985153199
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 36396,
+            "type": "SCALAR",
+            "max": [
+                6939.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 294872,
+            "uri": "Grava_001.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 83280,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 83280,
+            "byteLength": 83280,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 166560,
+            "byteLength": 55520,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 222080,
+            "byteLength": 72792,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "lambert1",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Grava_01",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Grava_01",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                6.123234262925839e-17,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                6.123234262925839e-17,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}

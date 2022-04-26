@@ -1,0 +1,73 @@
+
+/*AR*/
+/*AR*/
+.contColArHero{
+    text-align: center;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.colNosArIzq{
+    background-color: white;
+    height: 92vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.colNosArMid{
+    background-color: white;
+    height: 92vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.colNosArDer{
+    background-color: white;
+    height: 92vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*SECTION 1*/
+/*SECTION 1*/
+.colArIzq2{
+    height: 92vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.colArDer2{
+    height: 92vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.colArDerSection3{
+    height: 125vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.contArSection{
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

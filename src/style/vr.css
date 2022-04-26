@@ -1,0 +1,57 @@
+/*VR*/
+/*VR*/
+
+/*SECTION 1*/
+/*SECTION 1*/
+.colVrIzq{
+    height: 92vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.colVrDer{
+    height: 92vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.contVrSection{
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contRowVR{
+    width: 90%;
+    margin: auto !important;
+    text-align: center;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.colVrGallery{
+    height: 41vh;
+    margin: 10px;
+    background: rgba(83, 83, 83, 0.534);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.colVrSep{
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
